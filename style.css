@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  background-image: url('engineering_background.jpg');
+  background-size: cover;
+  animation: background-animation 10s ease-in-out infinite alternate;
+}
+
+@keyframes background-animation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
